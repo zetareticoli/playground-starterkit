@@ -1,0 +1,35 @@
+{
+  "root": "./build",
+  "assets": {
+    "base": "src/assets/",
+    "dest": "build/assets/"
+  },
+  "js": {
+    "base"  : "src/assets/js/",
+    "files" : [
+      "src/assets/js/**/*.js"
+    ],
+    "dest"  : "build/assets/js/"
+  },
+  "scss": {
+    "base" : "src/assets/scss/",
+    "files": [
+      "src/assets/scss/**/*.scss",
+      "src/assets/scss/**/*.css"
+    ],
+    "dest" : "build/assets/css/"
+  },
+  "images": {
+    "base" : "src/assets/images/",
+    "files": [
+      "src/assets/images/**/*"
+    ],
+    "dest" : "build/assets/images/"
+  },
+  "styleguide": {
+    "base" : "src/sg/",
+    "files": [
+      "src/sg/**/*.nunjucks"
+    ]
+  }
+}

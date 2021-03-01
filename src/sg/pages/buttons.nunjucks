@@ -1,0 +1,11 @@
+<!-- index.njk -->
+{% extends "sg/templates/_preview.nunjucks" %}
+
+{% block preview %}
+  <h1>{{file.frontMatter.title}}</h1>
+  {% include "partials/component.nunj" %}
+{% endblock %}
+
+{% block code %}
+  <pre> <code class="html">{% include "partials/component.nunj" %}</code> </pre>
+{% endblock %}
